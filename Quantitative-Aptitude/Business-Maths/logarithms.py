@@ -25,3 +25,13 @@ print(math.log2(256))
 
 my_array = np.array([1,2,3,100,2.7128,1929,34])
 np.log(my_array)
+
+# convert negative numbers to bar notation with positive mantissa
+
+user = float(input("Enter logarithm value "))
+char = int(user)
+mantissa = user - char
+if user >= 0:
+    print(user)
+else:
+    print(f"{char - 1}.{mantissa + 1}")
