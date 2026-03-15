@@ -2,6 +2,9 @@
 # 35 - x = y
 # 50 - 2x = y
 
+import numpy as np
+import matplolib.pyplot as plt
+
 x = np.linspace(0,50,1000)
 y = 35 - x
 
